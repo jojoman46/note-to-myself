@@ -1,0 +1,112 @@
+html {
+  height: 100%; }
+  html body {
+    margin: 0;
+    padding: 0;
+    height: inherit;
+    width: 100%;
+    font-family: 'Lato'; }
+    html body header i {
+      position: absolute;
+      top: 1em;
+      left: 2em;
+      font-size: 1.4em;
+      color: #8b8b8b; }
+    html body header a {
+      position: absolute;
+      top: 1em;
+      right: 1em;
+      font-size: 1.4em;
+      font-weight: bolder; }
+    html body header #settings {
+      display: none; }
+      html body header #settings ul {
+        margin-top: 2%;
+        list-style-type: none;
+        font-family: normal; }
+        html body header #settings ul li {
+          padding-top: 2%; }
+    @media screen and (max-width: 992px) {
+      html body header {
+        margin-top: 10% !important; } }
+  html #wrapper {
+    padding: 1%;
+    font-family: 'Varela', sans-serif; }
+    html #wrapper .notes textarea {
+      text-decoration: none;
+      color: #000;
+      background: #ffc;
+      display: block;
+      height: 10em;
+      width: 100%;
+      padding: 1em;
+      overflow: auto;
+      font-family: "Reenie Beanie",arial,sans-serif;
+      font-weight: bold;
+      font-size: 2.2em;
+      /* Firefox */
+      -moz-box-shadow: 5px 5px 7px #212121;
+      /* Safari+Chrome */
+      -webkit-box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+      /* Opera */
+      box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);
+      /*rotation*/
+      -webkit-transform: rotate(-3deg);
+      -o-transform: rotate(-3deg);
+      -moz-transform: rotate(-3deg); }
+    html #wrapper .notes textarea:focus {
+      -moz-box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+      -webkit-box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+      box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.7);
+      -webkit-transform: scale(1.25);
+      -moz-transform: scale(1.25);
+      -o-transform: scale(1.25);
+      -moz-transition: -moz-transform .15s linear;
+      -o-transition: -o-transform .15s linear;
+      -webkit-transition: -webkit-transform .15s linear;
+      position: relative;
+      z-index: 5; }
+    html #wrapper .websites .link {
+      transition: all 0.5s ease; }
+    html #wrapper .websites .link:hover {
+      background-color: #0dff09; }
+    html #wrapper .tbd textarea {
+      width: 100%;
+      padding: 1em;
+      overflow: visible;
+      background: url("../images/broken.JPG") center center no-repeat;
+      /* This ruins default border */
+      background-size: contain;
+      color: #0dff09;
+      font-family: Consolas, monospace;
+      font-size: 2.2em; }
+    @media screen and (max-width: 992px) {
+      html #wrapper .col-md-3 {
+        margin-bottom: 5%; } }
+  html footer {
+    font-family: normal; }
+  @media screen and (min-width: 992px) {
+    html footer {
+      margin-top: 40%; } }
+  html #submit {
+    outline: none;
+    font-family: 'helvetica neue' sans-serif;
+    font-size: 2em;
+    color: white;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.7), 1px 1px 1px rgba(255, 255, 255, 0.3);
+    display: block;
+    margin: 2em auto;
+    padding: 23px 37px 25px 35px;
+    cursor: pointer;
+    background-color: #2e050c;
+    background-image: linear-gradient(273deg, #eb4763 30%, #e61a3c 40%);
+    border: none;
+    border-radius: 16px;
+    box-shadow: inset 0px 0px 1px 1px rgba(138, 15, 36, 0.9), inset 0px 0px 2px 3px rgba(230, 26, 60, 0.9), inset 1px 1px 1px 4px rgba(255, 255, 255, 0.8), inset 0px 0px 2px 7px rgba(235, 71, 99, 0.8), inset 0px 0px 4px 10px rgba(230, 26, 60, 0.9), 8px 10px 2px 6px rgba(92, 10, 24, 0.55), 0px 0px 3px 2px rgba(184, 20, 48, 0.9), 0px 0px 2px 6px rgba(230, 26, 60, 0.9), -1px -1px 1px 6px rgba(255, 255, 255, 0.9), 0px 0px 2px 11px rgba(230, 26, 60, 0.9), 0px 0px 1px 12px rgba(184, 20, 48, 0.9), 1px 3px 14px 14px rgba(0, 0, 0, 0.4); }
+  html #submit:active {
+    color: #d9d9d9;
+    padding: 26px 34px 22px 38px;
+    background-image: linear-gradient(273deg, #e61a3c 50%, #e8304f 60%);
+    box-shadow: inset 3px 4px 3px 2px rgba(92, 10, 24, 0.55), inset 0px 0px 1px 1px rgba(138, 15, 36, 0.9), inset -1px -1px 2px 3px rgba(230, 26, 60, 0.9), inset -2px -2px 1px 3px rgba(255, 255, 255, 0.8), inset 0px 0px 2px 7px rgba(235, 71, 99, 0.8), inset 0px 0px 3px 10px rgba(230, 26, 60, 0.9), 0px 0px 3px 2px rgba(184, 20, 48, 0.9), 0px 0px 2px 6px rgba(230, 26, 60, 0.9), -1px -1px 1px 6px rgba(255, 255, 255, 0.9), 0px 0px 2px 11px rgba(230, 26, 60, 0.9), 0px 0px 1px 12px rgba(184, 20, 48, 0.9), 1px 3px 14px 14px rgba(0, 0, 0, 0.4); }
+
+/*# sourceMappingURL=home.css.map */
